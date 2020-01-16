@@ -6,8 +6,6 @@ python:
 install:
     - pip install requests
     - pip install nose
-    - pip install pep8
 
 script:
-    - pep8 --max-line-length=180 qcloud_cos/.
     - nosetests -s
